@@ -6,11 +6,12 @@ import { EmployeeService } from './request.service';
 import { AppComponent } from './app.component';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { DoughnutChartDemoComponent } from './donut/donut.component';
-
+import {PieChartDemoComponent } from './piechart/piechart.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DoughnutChartDemoComponent
+    DoughnutChartDemoComponent,
+    PieChartDemoComponent
   ],
   imports: [
     BrowserModule,
